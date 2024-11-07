@@ -1,0 +1,43 @@
+.about-us {
+    background-image: url('../image/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 20px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-us .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .about-us .about-text {
+    color: black;
+    text-decoration: solid;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .about-us .about-text h1 {
+    color: orange;
+    margin-bottom: 10px;
+  }
+  
+  .about-us .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .about-us .about-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
